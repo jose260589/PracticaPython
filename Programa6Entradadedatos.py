@@ -1,5 +1,5 @@
 # input se usa para introducir palabras, siempre es texto
-#palabra = input("Introduce una palabra: ") esta dando error la parte string
+palabra = input("Introduce una palabra: ") #esta dando error la parte string
 
 # de esta forma se agrega numeros entero, para convertir el texto en numero
 num_int = int(input("Introduce un numero entero: "))
