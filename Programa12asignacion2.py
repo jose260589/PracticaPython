@@ -28,7 +28,7 @@ valor x=3
 asignacion de exponente
 **=
 
-asignacion de resto o dodulo
+asignacion de resto o modulo
 %=
 x=10
 x%=2
