@@ -1,0 +1,23 @@
+Dir - Devuelve la lista de atributos del objeto pasado
+
+upper - convierte a mayuscula
+lower - convierte a minuscula
+capitalize - primera letra en mayuscula
+
+FIND - Metodo encuentra la primera aparicion del valor especifico, sino devuelve 1
+INDEX -Metodo encuentra la primera aparicion del valor especifico, sino devuelve una excepcion
+
+ISNUMERIC - si es un numero devuelve True
+ISALPHA - si es alfa numerico devuelve True
+
+COUNT - Devuelve el numero de ocurrencias de una subcadena en la cadena dada
+LEN - Cuenta los caracteres de una cadena
+
+
+ENDSWITH - vERIFICA si una cadena comienza con 
+STARTSWITH - vERIFICA SI UNA CADENA TERMINA con
+
+REPLACE - reemplaza un valor por otro
+SPLIT - separa por el parametro dado
+
+type(variable) - se usa para verificar que tipo de valor lleva
