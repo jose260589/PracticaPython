@@ -2,8 +2,8 @@ w:escribir o crear sino existe.
 r:leer
 a:abrir archivo
 rt:leer y escribir
-crear archivos:
+crear archivos: write para escribir. para ver si tiene permiso de escribir es "writable"
 abrir archivos: variable = open("nombre archivo","condicion(r,a,w,wr)")
-leer archivos:
-leer y escribir:
+leer archivos: .read. si se usa ".readable() es para ver si tiene permiso de lectura"
+leer y escribir: "wr"
 Cerrar archivo: variable.clse() #cerrar archivo
