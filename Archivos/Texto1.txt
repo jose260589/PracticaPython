@@ -1,0 +1,9 @@
+w:escribir o crear sino existe.
+r:leer
+a:abrir archivo
+rt:leer y escribir
+crear archivos:
+abrir archivos: variable = open("nombre archivo","condicion(r,a,w,wr)")
+leer archivos:
+leer y escribir:
+Cerrar archivo: variable.clse() #cerrar archivo
