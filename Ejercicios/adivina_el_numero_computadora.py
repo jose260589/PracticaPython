@@ -28,7 +28,7 @@ def adivina_el_numero_computadora(x):
         elif respuesta == "b":
             limite_inferior = prediccion + 1
     
-    prediccion(f"Siii, La Computadora adivino el numero {x} correctamente.")
+    print(f"Siii, La Computadora adivino el numero {prediccion} correctamente.")
     
     #Intervalo inicial: [1,10]
     #prediccion: 6
@@ -36,4 +36,4 @@ def adivina_el_numero_computadora(x):
     #inverlao [1,5]
 
 
-adivina_el_numero_computadora(25)# el numero ingresado es el tamaño de probabilidades.
+adivina_el_numero_computadora(100)# el numero ingresado es el tamaño de probabilidades.
