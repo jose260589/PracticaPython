@@ -1,4 +1,4 @@
-#creando una lista con list() "se usa mas para crear listas vacias"
+#creando una lista con list() "se usa mas para crear listas vacias" o constructor
 # para crear lista se puede hacer "Variable = [datos]"
 lista = list(["hola","Jose",34,56,23,True])
 
