@@ -42,4 +42,6 @@ elemento_encontrado = lista.index(56)
 
 print(elemento_encontrado)
 
-
+#Crear una lista apartir de un rango
+r = list(range(0,10))
+print(r) 
