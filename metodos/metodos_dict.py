@@ -30,3 +30,6 @@ print(diccionario)
 diccionario_iterable = diccionario.items()
 
 print(diccionario_iterable)
+#fromkeys
+x = diccionario.fromkeys
+print(f'valor diccionaio x: {x}')
