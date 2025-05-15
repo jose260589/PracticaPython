@@ -17,6 +17,7 @@ lista.extend([False, 2030])
 #Eliminando un elemento de la lista(Por su indice)
 lista.pop(0)
 #lista.pop(-1) de esta forma elimina el ultimo elemento de la lista
+#lista.pop() #si se deja vacio elimina el ultimo elemento agregado
 
 #removiendo un elemento de la lista por su valor
 lista.remove("Toma mama")
@@ -25,7 +26,7 @@ print(lista)
 #ordenando la lista de forma ascendente(si usamos el parametro reverse=True lo ordena en reversa )
 #lista.sort() #no soporta al mismo tiempo int and str. 
 lista2 = [34,56,True,False,65,2030,False]
-lista2.sort(reverse=True)
+lista2.sort(reverse=True) #para ordenar la lista a la inversa
 
 
 #inviertiendo los elementos de una lista
