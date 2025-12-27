@@ -10,8 +10,16 @@ print("Hola Soy " + nombre) #una sola variable
 print("Hola soy % s"%nombre)
 print("Hola soy % s y tengo % s años."%(nombre,edad))#si son mas de una variable hay que usar una tupla
 
+# Strings  and numbers Other examples with %d and %.2f.
+radius = 10
+pi = 3.14
+area = pi * radius ** 2
+formated_string = 'The area of circle with a radius %d is %.3f.' %(radius, area)
+print(formated_string)
+
 #usando el metodo formart
 print("Hola soy {} y tengo {} años.".format(nombre,edad))
 
 #usando el metodo f-strings(es el que suelo usar)
 print(f"Hola soy {nombre} y tengo {edad} años.")
+
