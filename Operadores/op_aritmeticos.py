@@ -20,4 +20,7 @@ tipo_de_dato = type(division_baja)
 
 print(division_baja)
 
+#agregando un ejemplo con todos los operadores.
+print(2 + 3 * 5 - 8 / 4 ** 2 // 6 % 2)
+
 
