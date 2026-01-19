@@ -11,3 +11,19 @@ def concatenar_textos(name, surname):
 
 
 concatenar_textos(name= "Jose", surname= "Perez")
+
+#crear una funcion que imprima un valor con valor por defecto.
+def print_name_with_default(name, surname, alias = "Sin alias"):
+    print(f"{name} {surname} {alias}")
+
+print_name_with_default("Ana", "Gomez")
+print_name_with_default("Luis", "Martinez", "Lucho")
+
+#crear una funcion que imprima textos ilimitados.
+def imprimir_textos_ilimitados(*textos):
+    for texto in textos:
+        print(texto)
+
+imprimir_textos_ilimitados("Hola", "Mundo", "Esto", "Es", "Una", "Prueba")
+imprimir_textos_ilimitados("Solo", "Dos", "Textos")
+imprimir_textos_ilimitados("Uno")
