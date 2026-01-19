@@ -4,3 +4,10 @@ def sumar_dos_numeros(num1, num2):
 
 my_result = sumar_dos_numeros(5, 10)
 print("El resultado de la suma es:", my_result)
+
+#crear funcion que retorne un valor solicitando dos textos.
+def concatenar_textos(name, surname):
+    print(f"{name} {surname}")
+
+
+concatenar_textos(name= "Jose", surname= "Perez")
