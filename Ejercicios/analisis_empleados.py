@@ -11,6 +11,7 @@ def analisis_empleados(empleados_list):
     cantidad_activos = 0
     suma_salarios = 0
     cantidad_it = 0
+    suma_salarios_it = 0
     mayor_salario = 0
     nombre_empleado = ""
     promedio_it = 0
@@ -21,12 +22,13 @@ def analisis_empleados(empleados_list):
             suma_salarios += empleado["salario"]
             if empleado["departamento"] == "IT":
                 cantidad_it += 1
+                suma_salarios_it += empleado["salario"]
                 if empleado["salario"] > mayor_salario:
                     mayor_salario = empleado["salario"]
                     nombre_empleado = empleado["nombre"]
 
     if cantidad_it > 0:
-        promedio_it = suma_salarios / cantidad_it
+        promedio_it = suma_salarios_it / cantidad_it
     else:
         print("No hay empleados activos en el departamento IT para calcular el promedio salarial.")
 
