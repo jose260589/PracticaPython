@@ -11,7 +11,6 @@ class CuentaBancaria:
 
 
 
-
 cuenta = CuentaBancaria("Carlos", 1000)
 
 cuenta.depositar(500)
