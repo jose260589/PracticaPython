@@ -37,3 +37,8 @@ carlos.transferir(ana, 2000)  # Monto inválido o saldo insuficiente para la tra
 
 print(carlos.saldo)  # Esperado: 1100, ya que no debe haber cambiado por transferencia inválida
 print(ana.saldo)     # Esperado: 900, ya que no debe haber cambiado por transferencia inválida
+
+ana.transferir(carlos, 200)  # Monto inválido o saldo insuficiente para la transferencia.
+
+print(carlos.saldo)  # Esperado: 1300, ya que no debe haber cambiado por transferencia inválida
+print(ana.saldo)     # Esperado: 700, ya que no debe haber cambiado por transferencia inválida
