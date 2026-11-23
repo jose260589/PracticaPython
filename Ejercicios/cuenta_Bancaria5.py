@@ -1,11 +1,9 @@
 class CuentaBancaria:
     def __init__(self, titular, saldo):
-        try:
-            if saldo < 0:
-                raise ValueError("El saldo inicial no puede ser negativo.")
-        except ValueError as e:
-            print(e)
-            saldo = 0
+
+        if saldo < 0:
+            raise ValueError("El saldo inicial no puede ser negativo.")
+
 
         self.titular = titular
         self.__saldo = saldo
